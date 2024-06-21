@@ -1,0 +1,53 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  animation: logoAnimation 2s infinite;
+}
+
+@keyframes logoAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); /* Điều chỉnh khoảng cách lên xuống tùy ý */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.logo img{
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  max-height: 500px;
+  margin-top:150px;
+}
+
+#img1{
+  padding-right:200px;
+}
+
+.container h1{
+  position: absolute;
+  font-size: 100px;
+  top:-50px;
+  left: 250px;
+}
+
+#react{
+  color: #61dbfb;
+}
+
+#docker{
+  color: #2496ed;
+}
