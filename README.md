@@ -62,4 +62,4 @@ docker run -d -p 3000:3000 reactjs/convert-suhu:prod
 
 The application will now be running in a Docker container with production settings. You can access it at `http://localhost:3000`.
 
-# NOTES: Lưu Ý: Khi Project có những thay đổi mới thì phải build lại mục "Build the Docker Image" để hiển thị đúng nội dung Project mới nhất.
+# NOTES: Lưu Ý: Khi Project có những thay đổi mới thì phải build lại theo mục "Build the Docker Image" để hiển thị đúng nội dung Project mới nhất.
