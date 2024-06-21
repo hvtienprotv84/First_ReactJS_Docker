@@ -4,7 +4,7 @@
 - Docker - (Docker Desktop)
 - Vite.js
 
-# RUN PROJECT
+# RUN - PROJECT
 - `npm install`
 - `npm run dev` (Vite.js)
 
